@@ -1,0 +1,109 @@
+[
+  {
+    "type": "Bread",
+    "options": [
+      "Sub bun",
+      "Potato Bread",
+      "Everything Bagel",
+      "Sourdough",
+      "Pumpernickle",
+      "Brioche"
+    ]
+  },
+  {
+    "type": "Main",
+    "options": [
+      "Pepperoni",
+      "Salami",
+      "Turkey",
+      "Ham",
+      "Pastrami",
+      "Hummus",
+      "Peanut Butter",
+      "Tuna",
+      "Bacon",
+      "ToFurkey",
+      "Reroll Twice",
+      "Butter Bread and Reroll"
+    ]
+  },
+  {
+    "type": "Cheese",
+    "options": [
+      "Cheddar",
+      "Swiss",
+      "Havarti",
+      "Cream Cheese",
+      "Queso Sauce",
+      "None"
+    ]
+  },
+  {
+    "type": "Roughage",
+    "options": [
+      "Lettuce",
+      "Tomato",
+      " Onion",
+      "Cucumber",
+      "Kimchi",
+      "Pickles",
+      "Sauerkraut",
+      "Banana Peppers",
+      "Green Olives",
+      "Red Peppers",
+      "None",
+      "Reroll Twice"
+    ]
+  },
+  {
+    "type": "Wild Magic",
+    "options": [
+      "Garlic Powder",
+      "Dill",
+      "Turmeric",
+      "Cilantro",
+      "Pickled Ginger",
+      "Bacon",
+      "Crispy Onions",
+      "Relish",
+      "Chips",
+      "Fried Egg",
+      "Avocado",
+      "Extra Roughage",
+      "Extra Cheese",
+      "Extra Sauce",
+      "Mixed Nuts",
+      "Cinnamon",
+      "Sprinkles",
+      "Sichuan Peppercorn",
+      "Reroll Twice",
+      "None",
+      "Dealer's Choice"
+    ]
+  },
+  {
+    "type": "Sauce",
+    "options": [
+      "Ketchup",
+      "Ranch",
+      "Mustard",
+      "Mayo",
+      "Jelly/Jam",
+      "BBQ Sauce",
+      "Honey Chipotle",
+      "Ponzu",
+      "Salsa",
+      "Guacamole",
+      "Red Wine Vinegar",
+      "Green Tabasco",
+      "Habanero Sauce",
+      "Balsamic Vinegar",
+      "Wasabi Sauce",
+      "Horseradish Sauce",
+      "Red Pepper Jelly",
+      "None",
+      "Reroll Twice",
+      "Dealer's Choice"
+    ]
+  }
+]
