@@ -1,5 +1,5 @@
 # Roll For Sandwich
-A fun little random roller when you are feeling hungry and want to let fate decide. This was inspired by the <a href="https://www.tiktok.com/@adventuresinaardia">Roll for Sandwich</a> series by Adventures in Aardia. Includes some very cheesy puns.
+A fun little random roller when you are feeling hungry and want to let fate decide. This was inspired by the <a href="https://www.tiktok.com/@adventuresinaardia">Roll for Sandwich</a> series by Adventures in Aardia. 
 
 
 
