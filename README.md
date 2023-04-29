@@ -3,7 +3,7 @@ A fun little random roller when you are feeling hungry and want to let fate deci
 
 ## Built With
 
-[![React][React.js]][React-url]
+[![React][React.js]][[React-url](https://reactjs.org/)]
 
 ### Additional Credits
 
