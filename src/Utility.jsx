@@ -4,6 +4,7 @@ export function getRandom(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
+//Simulates the effect of a person typing
 export function typeText(fullText, speed, onComplete, startTyping) {
   const [text, setText] = useState("");
   const [index, setIndex] = useState(0);

@@ -17,6 +17,8 @@ export default function RollButton({}) {
   } = useSandwichContext();
   const [maxNumber, setMaxNumber] = useState(6);
 
+  // Whenever we go to the next category, we have to set
+  // a new maxNumber for our dice roll.
   useEffect(() => {
     setMaxNumber(sandwichOptions[optionIndex].options.length - 1);
   }, [optionIndex, []]);

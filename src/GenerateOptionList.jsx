@@ -31,6 +31,8 @@ export default function GenerateOptionList() {
     gameOver
   );
 
+  // Some different effects based on whether the item was selected
+  // or if are enabling clicking functionality with dealer's choice
   function getListClassName(i) {
     let className = "option-item";
 
@@ -41,14 +43,16 @@ export default function GenerateOptionList() {
     return dealersChoice ? (className += " option-item-dealer") : className;
   }
 
+  // When the game ends, choose a gameOver string randomnly.
   useEffect(() => {
     setRandomIndex(getRandom(0, gameOverStrings.length - 1));
 
     if (!gameOver) setTypingComplete(false);
   }, [gameOver]);
 
+  // If it is dealer's choice, we enable the items to be clicked and push
+  // the value back to App by changing the selectedIndex.
   function handleClick(option, i) {
-    console.log(option);
     if (dealersChoice && !option.toLowerCase().includes("dealer's choice")) {
       setHasClicked(true);
       setSelectedIndex(i);

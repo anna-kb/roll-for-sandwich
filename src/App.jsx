@@ -21,6 +21,8 @@ function App() {
   } = useSandwichContext();
   const [rolls, setRolls] = useState(1);
 
+  // When an item is randomnly selected, we can either have
+  // extra rolls, dealer's choice, or move on normally
   useEffect(() => {
     if (!initialized || selectedIndex < 0) return;
     const itemSelected = sandwichOptions[optionIndex].options[selectedIndex];
@@ -39,17 +41,15 @@ function App() {
     }, pageTransition);
   }, [selectedIndex]);
 
+  // After incrementing rolls, see if we have any left.
   useEffect(() => {
-    console.log("rolls remaining " + rolls);
     if (rolls <= 0) {
       goNext();
     }
   }, [rolls]);
 
-  // useEffect(() => {
-  //   if (gameOver) setRolls(1);
-  // }, [gameOver]);
-
+  // Check the optionIndex to determine whether we move forward
+  // with the next category, or end the game.
   function goNext() {
     if (optionIndex + 1 >= sandwichOptions.length) finishGame();
     else setOptionIndex((prevOptionIndex) => prevOptionIndex + 1);
@@ -57,6 +57,7 @@ function App() {
     setRolls(1);
   }
 
+  // Adding to our built sandwich list
   useEffect(() => {
     if (!initialized || !hasClicked) {
       return;
@@ -85,7 +86,7 @@ function App() {
             </div>
             <img
               className={"roll-image" + getShake()}
-              src="../roll-for-sandwich/assets/d20_dice.png"
+              src="https://pixabay.com/get/g864927a3156e5518c99fb63ccf5ed65ca35487871239063105dd7c22be21f1885c9f1feea3bb8051da360287cfb02fedea80258c52ca33d26ddd9af1c643d3bdef6e9de42415ab6b85f0562177bc02e3_640.png"
               alt="d20 Dice"
             ></img>
           </div>
