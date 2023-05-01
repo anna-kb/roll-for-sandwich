@@ -1,4 +1,4 @@
-# Check it out!
+# Check it out
 <a href="https://anna-kb.github.io/roll-for-sandwich/">Roll for Sandwich!</a>
 
 ## Roll For Sandwich
