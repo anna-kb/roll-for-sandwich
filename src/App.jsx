@@ -86,7 +86,7 @@ function App() {
             </div>
             <img
               className={"roll-image" + getShake()}
-              src="/d20_dice.png"
+              src="/roll-for-sandwich/public/d20_dice.png"
               alt="d20 Dice"
             ></img>
           </div>
