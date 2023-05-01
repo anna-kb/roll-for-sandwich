@@ -1,4 +1,4 @@
-# Check it out
+## Check it out
 <a href="https://anna-kb.github.io/roll-for-sandwich/">Roll for Sandwich!</a>
 
 ## Roll For Sandwich
@@ -6,13 +6,13 @@ A fun little random roller when you are feeling hungry and want to let fate deci
 
 
 
-### Built With
+## Built With
 
 [![React][React.js]][React-url]
 
 
 
-#### Additional Acknowledgements
+### Additional Acknowledgements
 
 <a href="https://pixabay.com/illustrations/d20-dice-dungeons-dragons-2699387/">D20 Dice</a>
 [React Icons](https://react-icons.github.io/react-icons/search)
